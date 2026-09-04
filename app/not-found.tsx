@@ -1,0 +1,1 @@
+export default function NotFound(){return <div className="mx-auto max-w-xl px-4 py-24 text-center"><h1 className="text-3xl font-black">这张龙图不存在</h1><p className="mt-3 text-stone-600">它可能已被移除，或链接地址不正确。</p></div>}

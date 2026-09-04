@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="mx-auto max-w-7xl px-4 py-10"><div className="h-10 w-48 animate-pulse rounded bg-stone-200"/><div className="grid-photos mt-8">{Array.from({length:8},(_,i)=><div key={i} className="aspect-[4/5] animate-pulse rounded-lg bg-stone-200"/>)}</div></div>}

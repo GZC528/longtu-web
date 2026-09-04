@@ -1,0 +1,2 @@
+@import "tailwindcss";
+:root{--bg:#fffdfa;--ink:#211c19;--brand:#e84932}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,"Microsoft YaHei",sans-serif}.grid-photos{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:16px}@media(min-width:640px){.grid-photos{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}@media(min-width:1024px){.grid-photos{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}}@media(min-width:1280px){.grid-photos{grid-template-columns:repeat(4,minmax(0,1fr))}}
